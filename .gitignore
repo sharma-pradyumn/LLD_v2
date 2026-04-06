@@ -1,0 +1,25 @@
+# --- General Java Artifacts ---
+*.class
+*.log
+*.jar
+
+# --- IntelliJ Project Structure ---
+# Ignores 'out' and '.idea' in the root AND all sub-folders
+out/
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# --- Unit Testing ---
+test-output/
+# If using IntelliJ's built-in test runner, it usually outputs to 'out/'
+
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
+
+
